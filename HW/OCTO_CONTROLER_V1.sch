@@ -14237,7 +14237,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-208.28" y="53.34" size="10.16" layer="97">OCTO PRINTER POWER &amp; LED CONTROLER V1.0</text>
+<text x="-208.28" y="53.34" size="10.16" layer="97">OCTO PRINTER  CONTROLER V1.0</text>
 <wire x1="-208.28" y1="-53.34" x2="-119.38" y2="-53.34" width="0.1524" layer="97"/>
 <wire x1="-208.28" y1="-144.78" x2="-119.38" y2="-144.78" width="0.1524" layer="97"/>
 <wire x1="-208.28" y1="-53.34" x2="-208.28" y2="-144.78" width="0.1524" layer="97"/>
