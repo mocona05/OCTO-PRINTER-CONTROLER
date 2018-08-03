@@ -14154,7 +14154,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="L1" library="cona_lib" deviceset="L_" device="SHP1260P-F" value="22uH"/>
 <part name="R10" library="cona_lib" deviceset="R_" device="0603" value="10kF"/>
 <part name="C2" library="cona_lib" deviceset="C_" device="0603" value="2.2nF/50V"/>
-<part name="R11" library="cona_lib" deviceset="R_" device="0603" value="46.6k"/>
+<part name="R11" library="cona_lib" deviceset="R_" device="0603" value="47k"/>
 <part name="C3" library="cona_lib" deviceset="C_" device="0603" value="0.1uF/50V"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="SMC" value="MBRS540T3"/>
 <part name="R7" library="cona_lib" deviceset="R_" device="0603" value="47k"/>
@@ -14175,15 +14175,15 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="JP6" library="cona_lib" deviceset="MA02" device="ECH350R"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="F4" library="ptc-littlefuse" deviceset="1812L" device="" value="FSMD020-1812"/>
-<part name="R6" library="cona_lib" deviceset="R_" device="0603" value="220"/>
-<part name="R9" library="cona_lib" deviceset="R_" device="0603" value="220"/>
+<part name="R6" library="cona_lib" deviceset="R_" device="0603" value="300"/>
+<part name="R9" library="cona_lib" deviceset="R_" device="0603" value="300"/>
 <part name="PE4" library="cona_lib" deviceset="GND" device=""/>
 <part name="PE20" library="cona_lib" deviceset="GND" device=""/>
 <part name="LED2" library="cona_lib" deviceset="3FRG4HD" device=""/>
 <part name="Q7" library="cona_lib" deviceset="DTC114EUA" device=""/>
 <part name="Q8" library="cona_lib" deviceset="DTC114EUA" device=""/>
-<part name="R3" library="cona_lib" deviceset="R_" device="0603" value="220"/>
-<part name="R4" library="cona_lib" deviceset="R_" device="0603" value="220"/>
+<part name="R3" library="cona_lib" deviceset="R_" device="0603" value="300"/>
+<part name="R4" library="cona_lib" deviceset="R_" device="0603" value="300"/>
 <part name="PE7" library="cona_lib" deviceset="GND" device=""/>
 <part name="PE8" library="cona_lib" deviceset="GND" device=""/>
 <part name="LED1" library="cona_lib" deviceset="3FRG4HD" device=""/>

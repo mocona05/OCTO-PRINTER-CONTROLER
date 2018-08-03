@@ -13054,7 +13054,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-7.024" y="30.076" size="0.7" layer="27" ratio="10"/>
 </element>
 <element name="IC2" library="cona_lib" package="S08-EP1" value="AOZ1284PI" x="-14.9" y="23.35" smashed="yes">
-<attribute name="NAME" x="-18.092" y="20.245" size="0.7" layer="25" rot="R90"/>
+<attribute name="NAME" x="-17.745" y="25.008" size="0.7" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-11.263" y="21.445" size="0.7" layer="27" rot="R90"/>
 </element>
 <element name="L1" library="cona_lib" package="SHP1260P-F" value="22uH" x="-1.875" y="14.675" smashed="yes" rot="R270">
@@ -13069,8 +13069,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-13.849" y="30.591" size="0.7" layer="25"/>
 <attribute name="VALUE" x="-11.476" y="27.601" size="0.7" layer="27" rot="R90"/>
 </element>
-<element name="R11" library="cona_lib" package="R0603" value="46.6k" x="-11.45" y="23.125" smashed="yes" rot="R90">
-<attribute name="NAME" x="-12.466" y="21.601" size="0.7" layer="25" rot="R90"/>
+<element name="R11" library="cona_lib" package="R0603" value="47k" x="-11.45" y="23.125" smashed="yes" rot="R90">
+<attribute name="NAME" x="-10.526" y="21.384" size="0.7" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-9.926" y="21.601" size="0.7" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C3" library="cona_lib" package="C0603" value="0.1uF/50V" x="-15.3" y="29.15" smashed="yes" rot="R90">
@@ -13098,7 +13098,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-18.349" y="30.699" size="0.7" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C1" library="cona_lib" package="C3225" value="10uF/35V" x="-19.375" y="22" smashed="yes" rot="R270">
-<attribute name="NAME" x="-17.568" y="24.361" size="0.7" layer="25" rot="R270"/>
+<attribute name="NAME" x="-21.282" y="22.339" size="0.7" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-21.915" y="24.286" size="0.6096" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="JP5" library="cona_lib" package="ECH350R-02" value="DC-IN" x="-41" y="20" smashed="yes" rot="R270">
@@ -13133,11 +13133,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-26.27" y="3.775" size="0.7" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-30.865" y="5.95" size="0.7" layer="27" rot="R270"/>
 </element>
-<element name="R6" library="cona_lib" package="R0603" value="220" x="-32.975" y="-3.2" smashed="yes" rot="R90">
+<element name="R6" library="cona_lib" package="R0603" value="300" x="-32.975" y="-3.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="-32.134" y="-2.776" size="0.7" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-31.451" y="-4.724" size="0.7" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R9" library="cona_lib" package="R0603" value="220" x="-34.55" y="-3.2" smashed="yes" rot="R90">
+<element name="R9" library="cona_lib" package="R0603" value="300" x="-34.55" y="-3.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="-35.366" y="-3.924" size="0.7" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-33.026" y="-4.724" size="0.7" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -13153,11 +13153,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-36.98" y="-1.255" size="0.7" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-33.72" y="2.7" size="0.8" layer="27" rot="R180"/>
 </element>
-<element name="R3" library="cona_lib" package="R0603" value="220" x="-7.375" y="-3.375" smashed="yes" rot="R90">
+<element name="R3" library="cona_lib" package="R0603" value="300" x="-7.375" y="-3.375" smashed="yes" rot="R90">
 <attribute name="NAME" x="-6.484" y="-3.226" size="0.7" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-5.851" y="-4.899" size="0.7" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R4" library="cona_lib" package="R0603" value="220" x="-8.9" y="-3.375" smashed="yes" rot="R90">
+<element name="R4" library="cona_lib" package="R0603" value="300" x="-8.9" y="-3.375" smashed="yes" rot="R90">
 <attribute name="NAME" x="-9.841" y="-4.374" size="0.7" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-7.376" y="-4.899" size="0.7" layer="27" ratio="10" rot="R90"/>
 </element>
