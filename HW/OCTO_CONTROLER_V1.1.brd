@@ -11937,6 +11937,8 @@
 <text x="-37.6064" y="13.1284" size="0.8" layer="121" font="vector" rot="R90">P.31</text>
 <text x="-1.2216" y="-6.3686" size="0.8" layer="121" font="vector">+5V</text>
 <text x="2.7784" y="-6.3686" size="0.8" layer="121" font="vector">GND</text>
+<text x="-0.2716" y="-4.6686" size="1" layer="121" font="vector">5V OUT</text>
+<text x="-36.8314" y="16.2284" size="1" layer="121" font="vector" rot="R90">LED POWER</text>
 </plain>
 <libraries>
 <library name="cona_lib">
@@ -13054,7 +13056,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-21.282" y="24.839" size="0.7" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-21.915" y="26.786" size="0.6096" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="JP2" library="cona_lib" package="ECH350R-02" value="DC-IN" x="-41" y="20.5" smashed="yes" rot="R270">
+<element name="JP2" library="cona_lib" package="ECH350R-02" value="ECH350R" x="-41" y="20.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="-44.01" y="24.661" size="0.7" layer="25"/>
 <attribute name="VALUE" x="-38.811" y="18.41" size="0.7" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -13070,7 +13072,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-22.6" y="30.15" size="0.7" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-21.025" y="27.025" size="0.7" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="JP3" library="cona_lib" package="ECH350R-02" value="MA02ECH350R" x="-41" y="-3.5" smashed="yes" rot="R270">
+<element name="JP3" library="cona_lib" package="ECH350R-02" value="ECH350R" x="-41" y="-3.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="-41.815" y="-7.561" size="0.7" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-38.811" y="-5.59" size="0.7" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -13095,7 +13097,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-0.922" y="32.553" size="0.6096" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="LED2" library="cona_lib" package="3FG2HD-T1" value="STATUS" x="-35" y="-7.5" rot="R90"/>
-<element name="JP1" library="cona_lib" package="ECH350R-04" value="STRIP LED" x="-41" y="8.5" smashed="yes" rot="R270">
+<element name="JP1" library="cona_lib" package="ECH350R-04" value="ECH350R" x="-41" y="8.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="-44.685" y="15.911" size="0.7" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-38.811" y="9.91" size="0.7" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -13139,7 +13141,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-28.716" y="-10.085" size="0.7" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="-28.31" y="-13.326" size="0.7" layer="27" ratio="10"/>
 </element>
-<element name="JP4" library="cona_lib" package="ECH350R-02" value="MA02ECH350R" x="2" y="-8.5" smashed="yes">
+<element name="JP4" library="cona_lib" package="ECH350R-02" value="ECH350R" x="2" y="-8.5" smashed="yes">
 <attribute name="NAME" x="-2.286" y="-9.16" size="0.7" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="4.09" y="-6.311" size="0.7" layer="27" ratio="10"/>
 </element>

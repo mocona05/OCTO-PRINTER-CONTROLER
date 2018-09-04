@@ -16892,12 +16892,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="F1" library="ptc-littlefuse" deviceset="1812L" device="" value="1812L110/33"/>
 <part name="R8" library="cona_lib" deviceset="R_" device="0603" value="11k"/>
 <part name="C1" library="cona_lib" deviceset="C_" device="3225" value="10uF/35V"/>
-<part name="JP2" library="cona_lib" deviceset="MA02" device="ECH350R" value="DC-IN"/>
+<part name="JP2" library="cona_lib" deviceset="MA02" device="ECH350R" value="ECH350R"/>
 <part name="SUPPLY6" library="supply2" deviceset="VEE" device=""/>
 <part name="IC3" library="cona_lib" deviceset="CXDM4060P" device="CXDM4060P" value="CXDM4060P"/>
 <part name="R5" library="cona_lib" deviceset="R_" device="0603" value="100kF"/>
 <part name="ZD3" library="GRU-EURO6" deviceset="ZENER_DIODE" device="RD47S" value="RD10S"/>
-<part name="JP3" library="cona_lib" deviceset="MA02" device="ECH350R"/>
+<part name="JP3" library="cona_lib" deviceset="MA02" device="ECH350R" value="ECH350R"/>
 <part name="PE5" library="cona_lib" deviceset="GND" device=""/>
 <part name="R6" library="cona_lib" deviceset="R_" device="0603" value="200"/>
 <part name="PE20" library="cona_lib" deviceset="GND" device=""/>
@@ -16919,7 +16919,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C6" library="cona_lib" deviceset="C_" device="2012" value="4.7uF/10V"/>
 <part name="SUPPLY1" library="supply2" deviceset="VEE" device=""/>
 <part name="LED2" library="cona_lib" deviceset="LED" device="3FG2HD-T1" value="STATUS"/>
-<part name="JP1" library="cona_lib" deviceset="MA04-1" device="ECHR350R" value="STRIP LED"/>
+<part name="JP1" library="cona_lib" deviceset="MA04-1" device="ECHR350R" value="ECH350R"/>
 <part name="IC1" library="cona_lib" deviceset="N-DUAL-FET" device=""/>
 <part name="PE1" library="cona_lib" deviceset="GND" device=""/>
 <part name="R3" library="cona_lib" deviceset="R_" device="0603" value="10k"/>
@@ -16940,14 +16940,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="+3V2" library="cona_lib" deviceset="+3V3" device=""/>
 <part name="JP5" library="cona_lib" deviceset="SERVO-3CH" device=""/>
 <part name="+3V3" library="cona_lib" deviceset="+3V3" device=""/>
-<part name="JP4" library="cona_lib" deviceset="MA02" device="ECH350R"/>
+<part name="JP4" library="cona_lib" deviceset="MA02" device="ECH350R" value="ECH350R"/>
 <part name="P+1" library="cona_lib" deviceset="+5V" device=""/>
 <part name="PE11" library="cona_lib" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-208.28" y="53.34" size="10.16" layer="97">OCTO PRINTER  CONTROLER V1.0</text>
+<text x="-208.28" y="45.72" size="10.16" layer="97">OCTO PRINTER  CONTROLER V1.1</text>
 <wire x1="-208.28" y1="-53.34" x2="-119.38" y2="-53.34" width="0.1524" layer="97"/>
 <wire x1="-208.28" y1="-144.78" x2="-119.38" y2="-144.78" width="0.1524" layer="97"/>
 <wire x1="-208.28" y1="-53.34" x2="-208.28" y2="-144.78" width="0.1524" layer="97"/>
@@ -16961,15 +16961,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="-114.3" y1="-144.78" x2="58.42" y2="-144.78" width="0.1524" layer="97"/>
 <wire x1="58.42" y1="-144.78" x2="58.42" y2="-53.34" width="0.1524" layer="97"/>
 <wire x1="58.42" y1="-53.34" x2="-114.3" y2="-53.34" width="0.1524" layer="97"/>
-<text x="-58.42" y="-88.9" size="3.81" layer="97">+5 Voltage Step Down Regulator</text>
-<text x="-99.06" y="-60.96" size="1.778" layer="98" rot="MR180">DC7~35V Input</text>
-<text x="40.64" y="-99.06" size="1.778" layer="98" rot="MR180">Max 4A</text>
-<text x="-109.22" y="-58.42" size="3.81" layer="97">REGULATOR</text>
+<text x="-60.96" y="-81.28" size="3.81" layer="97">+5 Voltage Step Down Regulator</text>
+<text x="-99.06" y="-60.96" size="1.778" layer="98" rot="MR180">DC7~35V Input range(DC 12V or DC24V)</text>
+<text x="-109.22" y="-58.42" size="3.81" layer="97">DC POWER INPUT</text>
 <text x="15.24" y="-106.68" size="1.778" layer="98" rot="MR180">Vo = 0.8*(1+R37/R38)</text>
 <text x="2.54" y="-91.44" size="1.778" layer="98" rot="MR180">FSW R : 100K = 500kHz</text>
 <text x="2.54" y="-93.98" size="1.778" layer="98" rot="MR180">FSW R : 270K = 200kHz</text>
 <text x="2.54" y="-96.52" size="1.778" layer="98" rot="MR180">FSW R : 46.6k = 1MHz</text>
-<text x="-45.72" y="7.62" size="3.81" layer="97" rot="MR180">3D PRINTER EXTERNAL POWER RELAY</text>
+<text x="-45.72" y="7.62" size="3.81" layer="97" rot="MR180">PSU CONTROL</text>
 <text x="-111.76" y="33.02" size="3.81" layer="97">STATUS LED</text>
 <wire x1="-114.3" y1="38.1" x2="-114.3" y2="-50.8" width="0.1524" layer="97"/>
 <wire x1="-50.8" y1="38.1" x2="-50.8" y2="-50.8" width="0.1524" layer="97"/>
@@ -16980,7 +16979,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="-48.26" y1="-50.8" x2="-48.26" y2="10.16" width="0.1524" layer="97"/>
 <wire x1="58.42" y1="-50.8" x2="58.42" y2="10.16" width="0.1524" layer="97"/>
 <text x="-109.22" y="-12.7" size="3.81" layer="97">OPTION I/O</text>
-<text x="-45.72" y="2.54" size="3.81" layer="97" rot="MR180">(12V OR 24V)</text>
+<text x="-205.74" y="-58.42" size="3.81" layer="97">LED STRIP</text>
+<text x="27.94" y="-71.12" size="3.81" layer="97">DC 5V OUT</text>
+<text x="-43.18" y="-45.72" size="1.778" layer="98" rot="MR90">CONNECTOR-&gt;RELAY -&gt; PSU CONTROL</text>
+<text x="-175.26" y="-55.88" size="1.778" layer="98" rot="MR180">(DC12V or DC24V LED STRIP)</text>
+<text x="-58.42" y="-55.88" size="1.778" layer="98" rot="MR180">(DC12V or DC24V  ADAPTER USED)</text>
+<text x="-2.54" y="5.08" size="1.778" layer="98" rot="MR180">(DC12V or DC24V RELAY USED)</text>
+<text x="-111.76" y="-91.44" size="1.778" layer="98" rot="MR180">LED POWER</text>
+<text x="-43.18" y="-83.82" size="2.54" layer="98" rot="MR180">MAXIMUM 5V 4A OUT</text>
 </plain>
 <instances>
 <instance part="R10" gate="G$1" x="-10.16" y="-15.24" rot="MR0"/>
