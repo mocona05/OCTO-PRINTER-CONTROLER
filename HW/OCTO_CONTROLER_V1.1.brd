@@ -11924,6 +11924,7 @@
 <text x="-36.8314" y="16.2284" size="1" layer="121" font="vector" rot="R90">LED POWER</text>
 <dimension x1="-46" y1="42" x2="-42" y2="-14" x3="-54" y3="14" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="-46" y1="42" x2="39" y2="37.5" x3="-3.5" y3="45.5" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="19" y1="39.5" x2="-46" y2="39.5" x3="-13.5" y3="50" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="cona_lib">
