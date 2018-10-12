@@ -1,9 +1,22 @@
 # OCTO-PRINTER-CONTROLER
 3D PRINTER OCTTO PRINTER CONTOLER PCB
 
-![3d2](https://user-images.githubusercontent.com/11598835/43372146-acde1c5c-93d8-11e8-9c9a-db5965f36def.png)
-![3d3](https://user-images.githubusercontent.com/11598835/43372147-ad0535ee-93d8-11e8-835e-4db12fd67efc.png)
 
-![001](https://user-images.githubusercontent.com/11598835/43645988-8a57f7e0-976e-11e8-9643-6d308e2929b0.png)
-![002](https://user-images.githubusercontent.com/11598835/43646148-100afc02-976f-11e8-96f3-befc15a34c99.png)
-![003](https://user-images.githubusercontent.com/11598835/43646163-1836c9a6-976f-11e8-863c-24f85f58e46b.png)
+1. DC 7~35V INPUT(DC12V or DC24V, 5V 4A OUT
+2. PSU CONTROL( EXTERNAL RELAY CONTROL 12V or 24V Relay)
+3. RGB LED CONTROL
+4. Raspberry SPI TOUCH LCD SUPPORT
+
+
+![v1 1_sch](https://user-images.githubusercontent.com/11598835/46874568-6b81d880-ce74-11e8-9a5f-33d865bd414a.png)
+![pcb](https://user-images.githubusercontent.com/11598835/46874576-6e7cc900-ce74-11e8-8845-7680d4051f0b.png)
+
+![v1 1_01](https://user-images.githubusercontent.com/11598835/46874394-075f1480-ce74-11e8-8775-5a9fb0a5c464.png)
+LCD module Pi TFT 3.5 inch (320*480) Touchscreen Display Module
+![v1 1_03](https://user-images.githubusercontent.com/11598835/46874435-2198f280-ce74-11e8-87f1-3caa8f3d6df9.png)
+![v1 1_02](https://user-images.githubusercontent.com/11598835/46874464-31b0d200-ce74-11e8-94b3-80f0f6aa0f80.png)
+![v1 1_06](https://user-images.githubusercontent.com/11598835/46874484-383f4980-ce74-11e8-96f9-7d96574cf30b.png)
+![v1 1_v04](https://user-images.githubusercontent.com/11598835/46874488-3a090d00-ce74-11e8-8dbe-bd7b972c1a39.png)
+![v1 1_v05](https://user-images.githubusercontent.com/11598835/46874495-3b3a3a00-ce74-11e8-9089-30a53a3ec9b9.png)
+![v1 1_v07](https://user-images.githubusercontent.com/11598835/46874502-3d03fd80-ce74-11e8-87f4-e5af33d6ef59.png)
+![v1 1_v10](https://user-images.githubusercontent.com/11598835/46874505-3e352a80-ce74-11e8-9f56-d8e30af4f5fd.png)
