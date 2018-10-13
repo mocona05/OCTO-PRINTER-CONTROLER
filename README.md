@@ -78,7 +78,6 @@ hdmi_cvt 480 320 60 6 0 0 0
 hdmi_drive=2
 
 
-
 CHROMIUM INSTALL
 https://www.raspberrypi.org/forums/viewtopic.php?t=163316
 sudo apt-get install unclutter
