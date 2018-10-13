@@ -44,6 +44,7 @@ xwindos auto login setting
 sudo raspi-config
 
 3.Boot-option -> B1 Desktop /CLI -> B4 Desktop Autologin
+![rpi-set01](https://user-images.githubusercontent.com/11598835/46899945-6f921280-ced5-11e8-8733-9a8a2dda06f3.png)
 
 TFT DRIVER INSTALL
 
