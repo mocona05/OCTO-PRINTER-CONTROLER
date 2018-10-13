@@ -37,8 +37,11 @@ sudo apt-get install --no-install-recommends xinit
 sudo apt-get install raspberrypi-ui-mods
 
 xwindos auto login setting
+
 sudo raspi-config
+
 3.Boot-option -> B1 Desktop /CLI -> B4 Desktop Autologin
+
 
 TFT DRIVER INSTALL
 https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(A)#Method_1._Driver_installation
