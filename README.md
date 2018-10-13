@@ -25,6 +25,7 @@ LCD module Pi TFT 3.5 inch (320*480) Touchscreen Display Module
 TOUCH GHI SETTING
 
 OCTO PRINTER IMAGE DOWN LOAD
+
 https://octoprint.org/download/
 
 OCTO PRINTER IMAGE to SD MEMORY WRITE
@@ -41,23 +42,34 @@ sudo apt-get install raspberrypi-ui-mods
 xwindos auto login setting
 
 sudo raspi-config
+
 3.Boot-option -> B1 Desktop /CLI -> B4 Desktop Autologin
 
 
 TFT DRIVER INSTALL
+
 https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(A)#Method_1._Driver_installation
 
 Wget https://www.waveshare.com/w/upload/1/1e/LCD-show-180817.tar.gz
+
 DRIVER extractor
+
 tar xvf LCD-show - *. tar.gz
+
 cd LCD-show/
+
 chmod 777 LCD35-show 
+
 ./LCD35-show
 
+
 HDMI & TOUCH DRIVER INSTALL
+
 https://www.raspberrypi.org/forums/viewtopic.php?t=175616
 https://www.raspberrypi.org/forums/viewtopic.php?t=175616
+
 sudo apt-get install xinput-calibrator
+
 sudo nano /boot/config.txt
 
 # Force use HDMI
@@ -83,8 +95,11 @@ hdmi_drive=2
 
 
 CHROMIUM INSTALL
+
 https://www.raspberrypi.org/forums/viewtopic.php?t=163316
+
 sudo apt-get install unclutter
+
 sudo apt-get install xdotool
 
 sudo apt-get install chromium-browser –yes
@@ -94,6 +109,7 @@ CHROMIUM AUTO START SETTING
 sudo nano ~/.config/lxsession/LXDE-pi/autostart
 
 sudo -u pi chromium-browser --kiosk --incognito http://127.0.0.1 & 
+
 sudo nano /boot/config.txt
 
 sudo reboot
