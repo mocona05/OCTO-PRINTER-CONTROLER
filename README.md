@@ -44,7 +44,7 @@ xwindos auto login setting
 sudo raspi-config
 
 3.Boot-option -> B1 Desktop /CLI -> B4 Desktop Autologin
-
+https://github.com/mocona05/OCTO-PRINTER-CONTROLER/issues/2#issue-369755621
 
 TFT DRIVER INSTALL
 
