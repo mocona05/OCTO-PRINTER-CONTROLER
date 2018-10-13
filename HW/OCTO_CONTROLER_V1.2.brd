@@ -212,7 +212,7 @@
 <text x="-38.6314" y="-5.9966" size="0.8" layer="121" font="vector" rot="R90">GND</text>
 <text x="-39.3686" y="23.7966" size="0.8" layer="121" font="vector" rot="R270">+V-IN</text>
 <text x="-39.3686" y="19.7216" size="0.8" layer="121" font="vector" rot="R270">GND</text>
-<text x="-33.9936" y="34.0716" size="0.8" layer="121" font="vector" rot="R270">DC-IN 7-35V</text>
+<text x="-33.9936" y="34.0716" size="0.8" layer="121" font="vector" rot="R270">DC-IN 7-30V</text>
 <rectangle x1="11.41095" y1="23.52485" x2="11.52525" y2="23.53755" layer="200" rot="R90"/>
 <rectangle x1="11.41095" y1="23.82965" x2="11.52525" y2="23.84235" layer="200" rot="R90"/>
 <rectangle x1="11.41095" y1="24.12175" x2="11.52525" y2="24.13445" layer="200" rot="R90"/>
