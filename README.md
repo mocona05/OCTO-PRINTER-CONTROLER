@@ -39,7 +39,6 @@ sudo apt-get install raspberrypi-ui-mods
 xwindos auto login setting
 
 sudo raspi-config
-
 3.Boot-option -> B1 Desktop /CLI -> B4 Desktop Autologin
 
 
