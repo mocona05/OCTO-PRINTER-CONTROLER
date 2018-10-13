@@ -33,7 +33,9 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=131489
 https://www.raspberrypi.org/forums/viewtopic.php?p=890408#p890408
 
 sudo apt-get install --no-install-recommends xserver-xorg 
+
 sudo apt-get install --no-install-recommends xinit 
+
 sudo apt-get install raspberrypi-ui-mods
 
 xwindos auto login setting
