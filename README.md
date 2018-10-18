@@ -55,10 +55,11 @@ Pi CAMERA SETUP (Raspberry pi camera 사용시)
 
 TFT DRIVER INSTALL
 
-
 https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(A)#Method_1._Driver_installation
 
+
 wget https://www.waveshare.com/w/upload/1/1e/LCD-show-180817.tar.gz
+
 ![consol1](https://user-images.githubusercontent.com/11598835/47189407-5971cf80-d377-11e8-8412-d9e97af0ed27.png)
 
 DRIVER extractor
@@ -90,8 +91,8 @@ CHROMIUM AUTO START SETTING
 https://www.raspberrypi.org/forums/viewtopic.php?t=163316
 
 sudo nano ~/.config/lxsession/LXDE-pi/autostart
-
 sudo -u pi chromium-browser --kiosk --incognito http://127.0.0.1 & 
+
 ![consol2](https://user-images.githubusercontent.com/11598835/47189410-5bd42980-d377-11e8-8e6b-21ce026a0bf3.png)
 
 
