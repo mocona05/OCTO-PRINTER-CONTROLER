@@ -98,3 +98,56 @@ sudo -u pi chromium-browser --kiosk --incognito http://127.0.0.1 &
 
 sudo reboot
 
+
+PSU Control Plug In Setup
+
+LED Strip Control Plug in Setup
+
+TouchUI Plug in Setup
+
+
+USB CAM Install(Option)
+https://github.com/jacksonliam/mjpg-streamer/
+sudo apt-get install subversion libjpeg8-dev libav-tools libv4l-dev cmake
+git clone https://github.com/jacksonliam/mjpg-streamer.git
+cd mjpg-streamer/mjpg-streamer-experimental
+
+export LD_LIBRARY_PATH=.
+sudo make
+
+Connecting camera repeat command.
+
+ls /dev/video* (If you see the / dev / video0, then everything should be fine, go ahead)
+
+ttps://github.com/foosel/OctoPrint/wiki/MJPG-Streamer-configuration
+sudo ./mjpg_streamer –i "./input_uvc.so –f 2 -y" -o "./output_http.so"
+check at http://<your Orangepi's IP>:8080/?action=stream
+ 
+
+sudo usermod -a -G video pi
+(to allow user access to a device video, it is necessary to add it to the appropriate group)
+sudo make install
+cd ~
+sudo nano webcam-streamer
+
+#!/bin/bash
+Daemon=mjpg_streamer
+DaemonBase=/usr/local
+DaemonArgs="-i \"input_uvc.so –f 2 -y\" -o \"output_http.so\""
+case "$1" in
+start)
+eval LD_LIBRARY_PATH=${DaemonBase}/lib ${DaemonBase}/bin/${Daemon} ${DaemonArgs} >/dev/null 2>&1 &
+echo "$0: started"
+;;
+stop)
+pkill -x ${Daemon}
+echo "$0: stopped"
+;;
+*)
+echo "Usage: $0 {start|stop}" >&2
+;;
+Esac
+
+
+
+
