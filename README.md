@@ -195,18 +195,22 @@ system:
     
     name: Stop video stream
     
+![cam04](https://user-images.githubusercontent.com/11598835/47196495-c26b3e80-d39b-11e8-9491-22dc55dee9ee.png)
 
+![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
 ![cam03](https://user-images.githubusercontent.com/11598835/47196496-c303d500-d39b-11e8-927a-436d0f93e258.png)
 
 
 Auto start cam
+
 sudo nano /etc/rc.local
+
 usr/local/bin/webcam-streamer start
+
 (Just make sure to put it above the line that reads exit 0).
+
 ![cam05](https://user-images.githubusercontent.com/11598835/47196494-c26b3e80-d39b-11e8-9b17-26c75b5c6d32.png)
 
-![cam04](https://user-images.githubusercontent.com/11598835/47196495-c26b3e80-d39b-11e8-9491-22dc55dee9ee.png)
 
-![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
-![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
+
 
