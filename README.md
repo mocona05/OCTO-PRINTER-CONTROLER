@@ -100,11 +100,13 @@ sudo reboot
 
 
 PSU Control Plug In Setup
+![cam02](https://user-images.githubusercontent.com/11598835/47196488-c1d2a800-d39b-11e8-9bf6-a78b6700bf76.png)
 
 LED Strip Control Plug in Setup
+![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
 
 TouchUI Plug in Setup
-
+![gui03](https://user-images.githubusercontent.com/11598835/47196491-c1d2a800-d39b-11e8-8739-58778fd0eef6.png)
 
 USB CAM Install(Option)
 https://github.com/jacksonliam/mjpg-streamer/
@@ -121,8 +123,9 @@ ls /dev/video* (If you see the / dev / video0, then everything should be fine, g
 
 ttps://github.com/foosel/OctoPrint/wiki/MJPG-Streamer-configuration
 sudo ./mjpg_streamer –i "./input_uvc.so –f 2 -y" -o "./output_http.so"
-check at http://<your Orangepi's IP>:8080/?action=stream
- 
+check at http://<your Raspberry pi's IP>:8080/?action=stream
+ ![gui02](https://user-images.githubusercontent.com/11598835/47196492-c1d2a800-d39b-11e8-8d63-ec137b7fc0e1.png)
+
 
 sudo usermod -a -G video pi
 (to allow user access to a device video, it is necessary to add it to the appropriate group)
@@ -148,6 +151,32 @@ echo "Usage: $0 {start|stop}" >&2
 ;;
 Esac
 
+![gui02](https://user-images.githubusercontent.com/11598835/47196492-c1d2a800-d39b-11e8-8d63-ec137b7fc0e1.png)
+
+sudo chmod +x webcam-streamer
+sudo mv webcam-streamer /usr/local/bin/
+
+sudo nano ~/.octoprint/config.yaml
+
+system:
+  actions:
+  - action: streamon
+    command: sudo /usr/local/bin/webcam-streamer start
+    confirm: false
+    name: Start video stream
+  - action: streamoff
+    command: sudo /usr/local/bin/webcam-streamer stop
+    confirm: false
+    name: Stop video stream
+![gui01](https://user-images.githubusercontent.com/11598835/47196493-c26b3e80-d39b-11e8-9354-e4c18304e3d4.png)
+![cam05](https://user-images.githubusercontent.com/11598835/47196494-c26b3e80-d39b-11e8-9b17-26c75b5c6d32.png)
+
+Auto start cam
+sudo nano /etc/rc.local
+usr/local/bin/webcam-streamer start
+(Just make sure to put it above the line that reads exit 0).
+![cam04](https://user-images.githubusercontent.com/11598835/47196495-c26b3e80-d39b-11e8-9491-22dc55dee9ee.png)
+![cam03](https://user-images.githubusercontent.com/11598835/47196496-c303d500-d39b-11e8-927a-436d0f93e258.png)
 
 
 
