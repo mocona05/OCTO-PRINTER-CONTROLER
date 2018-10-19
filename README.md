@@ -152,7 +152,7 @@ echo "Usage: $0 {start|stop}" >&2
 Esac
 
 ![gui02](https://user-images.githubusercontent.com/11598835/47196492-c1d2a800-d39b-11e8-8d63-ec137b7fc0e1.png)
-
+![gui01](https://user-images.githubusercontent.com/11598835/47196493-c26b3e80-d39b-11e8-9354-e4c18304e3d4.png)
 sudo chmod +x webcam-streamer
 sudo mv webcam-streamer /usr/local/bin/
 
@@ -168,15 +168,18 @@ system:
     command: sudo /usr/local/bin/webcam-streamer stop
     confirm: false
     name: Stop video stream
-![gui01](https://user-images.githubusercontent.com/11598835/47196493-c26b3e80-d39b-11e8-9354-e4c18304e3d4.png)
-![cam05](https://user-images.githubusercontent.com/11598835/47196494-c26b3e80-d39b-11e8-9b17-26c75b5c6d32.png)
+
+![cam03](https://user-images.githubusercontent.com/11598835/47196496-c303d500-d39b-11e8-927a-436d0f93e258.png)
+
 
 Auto start cam
 sudo nano /etc/rc.local
 usr/local/bin/webcam-streamer start
 (Just make sure to put it above the line that reads exit 0).
+![cam05](https://user-images.githubusercontent.com/11598835/47196494-c26b3e80-d39b-11e8-9b17-26c75b5c6d32.png)
+
 ![cam04](https://user-images.githubusercontent.com/11598835/47196495-c26b3e80-d39b-11e8-9491-22dc55dee9ee.png)
-![cam03](https://user-images.githubusercontent.com/11598835/47196496-c303d500-d39b-11e8-927a-436d0f93e258.png)
+
 
 
 
