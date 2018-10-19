@@ -53,6 +53,10 @@ Pi CAMERA SETUP (Raspberry pi camera 사용시)
 5. Interfacing Optin -> Pi Camera -> Yes
 ![rpi-set02](https://user-images.githubusercontent.com/11598835/47189405-57a80c00-d377-11e8-9879-542c8fbfb29b.png)
 
+7.Advanced Options -> A1 Expand Filesystem
+![rpi-set03](https://user-images.githubusercontent.com/11598835/47197200-98b41680-d39f-11e8-8927-1acf6e96e2c9.png)
+
+
 TFT DRIVER INSTALL
 
 https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(A)#Method_1._Driver_installation
