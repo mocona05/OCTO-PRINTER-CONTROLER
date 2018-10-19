@@ -177,6 +177,8 @@ echo "Usage: $0 {start|stop}" >&2
 
 Esac
 
+![cam02](https://user-images.githubusercontent.com/11598835/47197110-0b70c200-d39f-11e8-9a6b-62b13bd3cda5.png)
+
 
 sudo chmod +x webcam-streamer
 sudo mv webcam-streamer /usr/local/bin/
