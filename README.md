@@ -100,7 +100,7 @@ sudo reboot
 
 
 PSU Control Plug In Setup
-![cam02](https://user-images.githubusercontent.com/11598835/47196488-c1d2a800-d39b-11e8-9bf6-a78b6700bf76.png)
+
 
 LED Strip Control Plug in Setup
 ![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
