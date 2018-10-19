@@ -112,12 +112,17 @@ TouchUI Plug in Setup
 ![gui03](https://user-images.githubusercontent.com/11598835/47196491-c1d2a800-d39b-11e8-8739-58778fd0eef6.png)
 
 USB CAM Install(Option)
+
 https://github.com/jacksonliam/mjpg-streamer/
+
 sudo apt-get install subversion libjpeg8-dev libav-tools libv4l-dev cmake
+
 git clone https://github.com/jacksonliam/mjpg-streamer.git
+
 cd mjpg-streamer/mjpg-streamer-experimental
 
 export LD_LIBRARY_PATH=.
+
 sudo make
 
 Connecting camera repeat command.
@@ -125,9 +130,12 @@ Connecting camera repeat command.
 ls /dev/video* (If you see the / dev / video0, then everything should be fine, go ahead)
 
 ttps://github.com/foosel/OctoPrint/wiki/MJPG-Streamer-configuration
+
 sudo ./mjpg_streamer –i "./input_uvc.so –f 2 -y" -o "./output_http.so"
+
 check at http://<your Raspberry pi's IP>:8080/?action=stream
 
+![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
 
 
 sudo usermod -a -G video pi
@@ -197,7 +205,6 @@ system:
     
 ![cam04](https://user-images.githubusercontent.com/11598835/47196495-c26b3e80-d39b-11e8-9491-22dc55dee9ee.png)
 
-![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
 ![cam03](https://user-images.githubusercontent.com/11598835/47196496-c303d500-d39b-11e8-927a-436d0f93e258.png)
 
 
