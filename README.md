@@ -100,10 +100,10 @@ sudo reboot
 
 
 PSU Control Plug In Setup
-
+![gui01](https://user-images.githubusercontent.com/11598835/47196493-c26b3e80-d39b-11e8-9354-e4c18304e3d4.png)
 
 LED Strip Control Plug in Setup
-![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
+ ![gui02](https://user-images.githubusercontent.com/11598835/47196492-c1d2a800-d39b-11e8-8d63-ec137b7fc0e1.png)
 
 TouchUI Plug in Setup
 ![gui03](https://user-images.githubusercontent.com/11598835/47196491-c1d2a800-d39b-11e8-8739-58778fd0eef6.png)
@@ -124,7 +124,7 @@ ls /dev/video* (If you see the / dev / video0, then everything should be fine, g
 ttps://github.com/foosel/OctoPrint/wiki/MJPG-Streamer-configuration
 sudo ./mjpg_streamer –i "./input_uvc.so –f 2 -y" -o "./output_http.so"
 check at http://<your Raspberry pi's IP>:8080/?action=stream
- ![gui02](https://user-images.githubusercontent.com/11598835/47196492-c1d2a800-d39b-11e8-8d63-ec137b7fc0e1.png)
+
 
 
 sudo usermod -a -G video pi
@@ -152,7 +152,7 @@ echo "Usage: $0 {start|stop}" >&2
 Esac
 
 ![gui02](https://user-images.githubusercontent.com/11598835/47196492-c1d2a800-d39b-11e8-8d63-ec137b7fc0e1.png)
-![gui01](https://user-images.githubusercontent.com/11598835/47196493-c26b3e80-d39b-11e8-9354-e4c18304e3d4.png)
+
 sudo chmod +x webcam-streamer
 sudo mv webcam-streamer /usr/local/bin/
 
@@ -180,6 +180,6 @@ usr/local/bin/webcam-streamer start
 
 ![cam04](https://user-images.githubusercontent.com/11598835/47196495-c26b3e80-d39b-11e8-9491-22dc55dee9ee.png)
 
-
+![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
 
 
