@@ -100,12 +100,15 @@ sudo reboot
 
 
 PSU Control Plug In Setup
+
 ![gui01](https://user-images.githubusercontent.com/11598835/47196493-c26b3e80-d39b-11e8-9354-e4c18304e3d4.png)
 
 LED Strip Control Plug in Setup
- ![gui02](https://user-images.githubusercontent.com/11598835/47196492-c1d2a800-d39b-11e8-8d63-ec137b7fc0e1.png)
+
+![gui02](https://user-images.githubusercontent.com/11598835/47196492-c1d2a800-d39b-11e8-8d63-ec137b7fc0e1.png)
 
 TouchUI Plug in Setup
+
 ![gui03](https://user-images.githubusercontent.com/11598835/47196491-c1d2a800-d39b-11e8-8739-58778fd0eef6.png)
 
 USB CAM Install(Option)
