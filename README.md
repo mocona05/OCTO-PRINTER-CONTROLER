@@ -1,11 +1,13 @@
-# OCTO-PRINTER TFT-LCD SHIELD MOUDLE
-3D PRINTER OCTTO PRINTER CONTOLER PCB
+# OCTO-PRINTER TFT-LCD HAT MOUDLE (3D PRINTER)
 
 
-1. DC 7~30V INPUT(DC12V or DC24V, 5V 4A OUT
-2. PSU CONTROL( EXTERNAL RELAY CONTROL 12V or 24V Relay)
-3. RGB LED CONTROL
-4. Raspberry SPI TOUCH LCD SUPPORT
+**1. DC 7~30V INPUT(DC12V or DC24V, 5V 4A OUT**
+
+**2. POWER SUPPLY UNIT CONTROL( EXTERNAL RELAY CONTROL 12V or 24V Relay)**
+
+**3. RGB LED STRIP CONTROL**
+
+**4. Raspberry SPI INTERFACE TFT-LCD & TOUCH SUPPORT**
 
 
 ![v1 2_sch](https://user-images.githubusercontent.com/11598835/46899833-a0714800-ced3-11e8-9eae-bbafdd31d3e1.png)
@@ -22,7 +24,8 @@ LCD module Pi TFT 3.5 inch (320*480) Touchscreen Display Module
 ![v1 1_v10](https://user-images.githubusercontent.com/11598835/46874505-3e352a80-ce74-11e8-9f56-d8e30af4f5fd.png)
 
 
-TOUCH GHI SETTING
+**TOUCH GHI SETTING**
+
 OCTO PRINTER IMAGE DOWN LOAD
 https://octoprint.org/download/
 
@@ -31,25 +34,29 @@ OCTO PRINTER IMAGE to SD MEMORY WRITE
 https://www.raspberrypi.org/forums/viewtopic.php?t=131489
 https://www.raspberrypi.org/forums/viewtopic.php?p=890408#p890408
 
-RASPBERRY PI FIRMWARE UPDATE
-sudo rpi-update
+**RASPBERRY PI FIRMWARE UPDATE**
 
-RASPBERRY PI UPDATE
-sudo apt-get update 
-sudo apt-get upgrade
+`sudo rpi-update`
 
-RASPBERRY PI XWINDOWS INSTALL
-sudo apt-get install --no-install-recommends xserver-xorg
-sudo apt-get install --no-install-recommends xinit
-sudo apt-get install raspberrypi-ui-mods
+**RASPBERRY PI UPDATE**
 
-xwindos auto login & Pi camera setting
-sudo raspi-config
+`sudo apt-get update`<br>
+`sudo apt-get upgrade`<br>
+
+**RASPBERRY PI XWINDOWS INSTALL**
+
+`sudo apt-get install --no-install-recommends xserver-xorg`<br>
+`sudo apt-get install --no-install-recommends xinit`<br>
+`sudo apt-get install raspberrypi-ui-mods`<br>
+
+**xwindos auto login & Pi camera setting**
+
+`sudo raspi-config`<br>
 3.Boot-option -> B1 Desktop /CLI -> B4 Desktop Autologin
 
 ![rpi-set01](https://user-images.githubusercontent.com/11598835/46899945-6f921280-ced5-11e8-8733-9a8a2dda06f3.png)
 
-Pi CAMERA SETUP (Raspberry pi camera 사용시)
+Pi CAMERA SETUP (Raspberry pi camera used)
 5. Interfacing Optin -> Pi Camera -> Yes
 ![rpi-set02](https://user-images.githubusercontent.com/11598835/47189405-57a80c00-d377-11e8-9879-542c8fbfb29b.png)
 
@@ -57,173 +64,146 @@ Pi CAMERA SETUP (Raspberry pi camera 사용시)
 ![rpi-set03](https://user-images.githubusercontent.com/11598835/47197200-98b41680-d39f-11e8-8927-1acf6e96e2c9.png)
 
 
-TFT DRIVER INSTALL
+**TFT DRIVER INSTALL**
 
 https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(A)#Method_1._Driver_installation
 
 
-wget https://www.waveshare.com/w/upload/1/1e/LCD-show-180817.tar.gz
+`wget https://www.waveshare.com/w/upload/1/1e/LCD-show-180817.tar.gz`<br>
 
 ![consol1](https://user-images.githubusercontent.com/11598835/47189407-5971cf80-d377-11e8-8412-d9e97af0ed27.png)
 
-DRIVER extractor
+**DRIVER extractor**
 
-tar xvf LCD-show-180817.tar.gz
-cd LCD-show/
-chmod 777 LCD35-show 
-./LCD35-show
+`tar xvf LCD-show-180817.tar.gz`<br>
+`cd LCD-show/`<br>
+`chmod 777 LCD35-show`<br>
+`./LCD35-show`<br>
 
 
-HDMI & TOUCH DRIVER INSTALL
+**HDMI & TOUCH DRIVER INSTALL**
 
 https://www.raspberrypi.org/forums/viewtopic.php?t=175616
 
-sudo apt-get install xinput-calibrator
+`sudo apt-get install xinput-calibrator`<br>
 
 
 
-CHROMIUM INSTALL
-sudo apt-get install unclutter
-sudo apt-get install xdotool
+**CHROMIUM INSTALL**
+
+`sudo apt-get install unclutter`<br>
+`sudo apt-get install xdotool`<br>
 
 https://raspberrypi.stackexchange.com/questions/374/how-do-i-install-google-chrome
 
 
-sudo apt-get install chromium-browser
+`sudo apt-get install chromium-browser`<br>
 
-CHROMIUM AUTO START SETTING
+**CHROMIUM AUTO START SETTING**
+
 https://www.raspberrypi.org/forums/viewtopic.php?t=163316
 
-sudo nano ~/.config/lxsession/LXDE-pi/autostart
-sudo -u pi chromium-browser --kiosk --incognito http://127.0.0.1 & 
+`sudo nano ~/.config/lxsession/LXDE-pi/autostart`<br>
+`sudo -u pi chromium-browser --kiosk --incognito http://127.0.0.1 &`<br>
 
 ![consol2](https://user-images.githubusercontent.com/11598835/47189410-5bd42980-d377-11e8-8e6b-21ce026a0bf3.png)
 
 
-sudo reboot
+`sudo reboot`
 
 
-PSU Control Plug In Setup
+connect at http://<your Raspberry pi's IP>
+
+**PSU Control Plug In Setup**
 
 ![gui01](https://user-images.githubusercontent.com/11598835/47196493-c26b3e80-d39b-11e8-9354-e4c18304e3d4.png)
 
-LED Strip Control Plug in Setup
+**LED Strip Control Plug in Setup**
 
 ![gui02](https://user-images.githubusercontent.com/11598835/47196492-c1d2a800-d39b-11e8-8d63-ec137b7fc0e1.png)
 
-TouchUI Plug in Setup
+**TouchUI Plug in Setup**
 
 ![gui03](https://user-images.githubusercontent.com/11598835/47196491-c1d2a800-d39b-11e8-8739-58778fd0eef6.png)
 
-USB CAM Install(Option)
+
+**USB CAM Install(Option)**
 
 https://github.com/jacksonliam/mjpg-streamer/
 
-sudo apt-get install subversion libjpeg8-dev libav-tools libv4l-dev cmake
-
-git clone https://github.com/jacksonliam/mjpg-streamer.git
-
-cd mjpg-streamer/mjpg-streamer-experimental
-
-export LD_LIBRARY_PATH=.
-
-sudo make
+`sudo apt-get install subversion libjpeg8-dev libav-tools libv4l-dev cmake`<br>
+`git clone https://github.com/jacksonliam/mjpg-streamer.git`<br>
+`cd mjpg-streamer/mjpg-streamer-experimental`<br>
+`export LD_LIBRARY_PATH=.`<br>
+`sudo make`<br>
 
 Connecting camera repeat command.
 
-ls /dev/video* (If you see the / dev / video0, then everything should be fine, go ahead)
+`ls /dev/video*`<br> 
+(If you see the / dev / video0, then everything should be fine, go ahead)
 
 ttps://github.com/foosel/OctoPrint/wiki/MJPG-Streamer-configuration
 
-sudo ./mjpg_streamer –i "./input_uvc.so –f 2 -y" -o "./output_http.so"
+`sudo ./mjpg_streamer –i "./input_uvc.so –f 2 -y" -o "./output_http.so"`
 
 check at http://<your Raspberry pi's IP>:8080/?action=stream
 
 ![cam1](https://user-images.githubusercontent.com/11598835/47196489-c1d2a800-d39b-11e8-94b1-75423855fa21.png)
 
-
-sudo usermod -a -G video pi
+`sudo usermod -a -G video pi`<br>
 (to allow user access to a device video, it is necessary to add it to the appropriate group)
-sudo make install
-cd ~
-sudo nano webcam-streamer
 
-#!/bin/bash
+`sudo make install`<br>
+`cd ~`<br>
+`sudo nano webcam-streamer`<br>
 
-Daemon=mjpg_streamer
-
-DaemonBase=/usr/local
-
-DaemonArgs="-i \"input_uvc.so –f 2 -y\" -o \"output_http.so\""
-
-case "$1" in
-
-start)
-
-eval LD_LIBRARY_PATH=${DaemonBase}/lib ${DaemonBase}/bin/${Daemon} ${DaemonArgs} >/dev/null 2>&1 &
-
-echo "$0: started"
-
-;;
-stop)
-
-pkill -x ${Daemon}
-
-echo "$0: stopped"
-
-;;
-
-*)
-
-echo "Usage: $0 {start|stop}" >&2
-
-;;
-
-Esac
+`#!/bin/bash`<br>
+`Daemon=mjpg_streamer`<br>
+`DaemonBase=/usr/local`<br>
+`DaemonArgs="-i \"input_uvc.so –f 2 -y\" -o \"output_http.so\""`<br>
+`case "" in`<br>
+`start)`<br>
+`eval LD_LIBRARY_PATH=${DaemonBase}/lib ${DaemonBase}/bin/${Daemon} ${DaemonArgs} >/dev/null 2>&1 &`<br>
+`echo ": started"`<br>
+`;;`<br>
+`stop)`<br>
+`pkill -x ${Daemon}`<br>
+`echo ": stopped"`<br>
+`;;`<br>
+`*)`<br>
+`echo "Usage:  {start|stop}" >&2`<br>
+`;;`<br>
+`Esac`<br>
 
 ![cam02](https://user-images.githubusercontent.com/11598835/47197110-0b70c200-d39f-11e8-9a6b-62b13bd3cda5.png)
 
 
-sudo chmod +x webcam-streamer
-sudo mv webcam-streamer /usr/local/bin/
+`sudo chmod +x webcam-streamer`<br>
+`sudo mv webcam-streamer /usr/local/bin/`<br>
+`sudo nano ~/.octoprint/config.yaml`<br>
 
-sudo nano ~/.octoprint/config.yaml
+`system:`<br>
+  `actions:`<br>
+  `- action: streamon`<br>
+    `command: sudo /usr/local/bin/webcam-streamer start`<br>
+    `confirm: false`<br>
+    `name: Start video stream`<br>
+  `- action: streamoff`<br>
+    `command: sudo /usr/local/bin/webcam-streamer stop`<br>
+    `confirm: false`<br>
+    `name: Stop video stream`<br>
 
-system:
-
-  actions:
-  
-  - action: streamon
-  
-    command: sudo /usr/local/bin/webcam-streamer start
-    
-    confirm: false
-    
-    name: Start video stream
-    
-  - action: streamoff
-  
-    command: sudo /usr/local/bin/webcam-streamer stop
-    
-    confirm: false
-    
-    name: Stop video stream
     
 ![cam03](https://user-images.githubusercontent.com/11598835/47196496-c303d500-d39b-11e8-927a-436d0f93e258.png)
 
 ![cam04](https://user-images.githubusercontent.com/11598835/47196495-c26b3e80-d39b-11e8-9491-22dc55dee9ee.png)
 
 
-Auto start cam
+**Auto start cam**
 
-sudo nano /etc/rc.local
+`sudo nano /etc/rc.local`<br>
 
-usr/local/bin/webcam-streamer start
-
+`usr/local/bin/webcam-streamer start`<br>
 (Just make sure to put it above the line that reads exit 0).
 
 ![cam05](https://user-images.githubusercontent.com/11598835/47196494-c26b3e80-d39b-11e8-9b17-26c75b5c6d32.png)
-
-
-
-
