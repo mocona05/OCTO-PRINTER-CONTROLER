@@ -214,16 +214,12 @@ system:
 ![cam04](https://user-images.githubusercontent.com/11598835/47196495-c26b3e80-d39b-11e8-9491-22dc55dee9ee.png)
 
 
-Auto start cam
 
-sudo nano /etc/rc.local
+**Auto start cam**
 
-usr/local/bin/webcam-streamer start
+`sudo nano /etc/rc.local`<br>
 
+`usr/local/bin/webcam-streamer start`<br>
 (Just make sure to put it above the line that reads exit 0).
 
 ![cam05](https://user-images.githubusercontent.com/11598835/47196494-c26b3e80-d39b-11e8-9b17-26c75b5c6d32.png)
-
-
-
-
