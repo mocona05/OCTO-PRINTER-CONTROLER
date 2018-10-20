@@ -12,6 +12,7 @@
 
 ![v1 2_sch](https://user-images.githubusercontent.com/11598835/46899833-a0714800-ced3-11e8-9eae-bbafdd31d3e1.png)
 ![pcb_v1 2](https://user-images.githubusercontent.com/11598835/46899834-a2d3a200-ced3-11e8-92eb-150ee3ae9a74.png)
+![wiring](https://user-images.githubusercontent.com/11598835/47257206-ea56c100-d4c5-11e8-9e50-1440a79b2570.png)
 
 ![v1 1_01](https://user-images.githubusercontent.com/11598835/46874394-075f1480-ce74-11e8-8775-5a9fb0a5c464.png)
 LCD module Pi TFT 3.5 inch (320*480) Touchscreen Display Module
