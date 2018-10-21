@@ -8,6 +8,7 @@
 **3. RGB LED STRIP CONTROL**
 
 **4. Raspberry SPI INTERFACE TFT-LCD & TOUCH SUPPORT**
+
 For more information, see WIKI.
 
 ![v1 2_sch](https://user-images.githubusercontent.com/11598835/46899833-a0714800-ced3-11e8-9eae-bbafdd31d3e1.png)
