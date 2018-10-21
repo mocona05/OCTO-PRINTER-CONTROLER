@@ -9,7 +9,7 @@
 
 **4. Raspberry SPI INTERFACE TFT-LCD & TOUCH SUPPORT**
 
-For more information, see WIKI.
+For more information, see WIKI.<br>
 https://github.com/mocona05/OCTO-PRINTER-CONTROLER/wiki
 
 
