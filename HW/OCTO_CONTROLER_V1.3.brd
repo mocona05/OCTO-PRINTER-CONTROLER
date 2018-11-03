@@ -13101,7 +13101,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.714" y="-11.91" size="0.7" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="6.84" y="-6.311" size="0.7" layer="27" ratio="10"/>
 </element>
-<element name="R15" library="cona_lib" package="R0603" value="10k" x="2.5" y="-3.5" smashed="yes" rot="R90">
+<element name="R15" library="cona_lib" package="R0603" value="4.7K" x="2.5" y="-3.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.699" y="-1.541" size="0.7" layer="25" rot="R180"/>
 <attribute name="VALUE" x="4.024" y="-5.024" size="0.7" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -14371,8 +14371,8 @@ design rules under a new name.</description>
 <approved hash="4,1,76cd09f789613a0a"/>
 <approved hash="4,1,04f02ce118e328f2"/>
 <approved hash="4,1,367125f324c6f6f1"/>
-<approved hash="4,1,28ed7ef37b7c2d62"/>
 <approved hash="4,1,32a964b767e831f6"/>
+<approved hash="4,1,28ed7ef37b7c2d62"/>
 <approved hash="3,1,4728d15ed19e47e8"/>
 <approved hash="2,20,a489d9d69515adbe"/>
 <approved hash="2,20,18059708e1bc4f4d"/>
@@ -14384,11 +14384,11 @@ design rules under a new name.</description>
 <approved hash="2,20,d5a7533d903ae2e4"/>
 <approved hash="2,20,9fcde149d21e54f2"/>
 <approved hash="2,20,28abae3e523920e8"/>
-<approved hash="2,20,dca78f5d8d5df35c"/>
 <approved hash="2,20,aa2eef73827596d4"/>
 <approved hash="2,20,8295f088f19fce79"/>
-<approved hash="2,20,c16fe1ed7d8470fd"/>
+<approved hash="2,20,dca78f5d8d5df35c"/>
 <approved hash="2,20,d8e5e2256e44797f"/>
+<approved hash="2,20,c16fe1ed7d8470fd"/>
 <approved hash="4,1,c3508ed08cdac15a"/>
 <approved hash="4,1,c2c88f488c82c102"/>
 <approved hash="4,1,daf097708c7ac1fa"/>

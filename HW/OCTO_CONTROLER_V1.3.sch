@@ -17728,7 +17728,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="JP9" library="cona_lib" deviceset="MA03-1" device="ECH350R"/>
 <part name="PE25" library="cona_lib" deviceset="GND" device=""/>
 <part name="+3V4" library="cona_lib" deviceset="+3V3" device=""/>
-<part name="R15" library="cona_lib" deviceset="R_" device="0603" value="10k"/>
+<part name="R15" library="cona_lib" deviceset="R_" device="0603" value="4.7K"/>
 <part name="+3V5" library="cona_lib" deviceset="+3V3" device=""/>
 <part name="JP5" library="cona_lib" deviceset="MA02" device="ECH350R" value="ECH350R"/>
 <part name="IC5" library="cona_lib" deviceset="N-DUAL-FET" device="" value="NTMD5838NL"/>
@@ -17815,14 +17815,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <text x="-127" y="-2.54" size="1.778" layer="98" rot="MR0">LCD_CS</text>
 <text x="-127" y="-5.08" size="1.778" layer="98" rot="MR0">TP_CS</text>
 <text x="-172.72" y="-7.62" size="1.778" layer="98" rot="MR0">LCD_RS\</text>
-<wire x1="60.96" y1="-144.78" x2="60.96" y2="38.1" width="0.1524" layer="97"/>
+<wire x1="60.96" y1="-99.06" x2="60.96" y2="38.1" width="0.1524" layer="97"/>
 <wire x1="149.86" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="97"/>
-<wire x1="149.86" y1="38.1" x2="149.86" y2="-144.78" width="0.1524" layer="97"/>
-<wire x1="149.86" y1="-144.78" x2="60.96" y2="-144.78" width="0.1524" layer="97"/>
+<wire x1="149.86" y1="38.1" x2="149.86" y2="-99.06" width="0.1524" layer="97"/>
+<wire x1="149.86" y1="-99.06" x2="60.96" y2="-99.06" width="0.1524" layer="97"/>
 <text x="63.5" y="35.56" size="3.81" layer="97" rot="MR180">ENCLOSURE-CONTROL</text>
 <text x="68.58" y="27.94" size="2.54" layer="98" rot="MR180">Temperature &amp; Humidity</text>
-<text x="83.82" y="-7.62" size="2.54" layer="98" rot="MR180">Output1/2/3</text>
-<text x="83.82" y="-50.8" size="2.54" layer="98" rot="MR180">Output1/2/3</text>
+<text x="91.44" y="-10.16" size="2.54" layer="98" rot="MR180">Output1/2</text>
+<text x="91.44" y="-53.34" size="2.54" layer="98" rot="MR180">Output3/4</text>
 </plain>
 <instances>
 <instance part="R11" gate="G$1" x="-5.08" y="10.16" rot="MR0"/>
