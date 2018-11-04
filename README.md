@@ -14,6 +14,8 @@
 For more information, see WIKI.<br>
 https://github.com/mocona05/OCTO-PRINTER-CONTROLER/wiki
 
+![v1 2_sch](https://user-images.githubusercontent.com/11598835/47960346-6d872380-e03d-11e8-83e5-9259e4c1e1d6.png)
+![v1 3pcb](https://user-images.githubusercontent.com/11598835/47960347-6fe97d80-e03d-11e8-8af7-9671df97007e.png)
 
 ![v1 2_sch](https://user-images.githubusercontent.com/11598835/46899833-a0714800-ced3-11e8-9eae-bbafdd31d3e1.png)
 ![pcb_v1 2](https://user-images.githubusercontent.com/11598835/46899834-a2d3a200-ced3-11e8-92eb-150ee3ae9a74.png)
