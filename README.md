@@ -14,7 +14,7 @@
 For more information, see WIKI.<br>
 https://github.com/mocona05/OCTO-PRINTER-CONTROLER/wiki
 
-Application of Octo Printer Shiled
+Application of Octo Printer Shiled<br>
 https://www.thingiverse.com/make:639404
 
 
