@@ -11,6 +11,8 @@ https://ko.aliexpress.com/item/33022691125.html?spm=a2g0o.productlist.0.0.248165
 
 **4. Raspberry SPI INTERFACE TFT-LCD & TOUCH SUPPORT**
 
+https://ko.aliexpress.com/item/1005001500066680.html?spm=a2g0o.productlist.0.0.69503506nUR3Vf&algo_pvid=05c77e45-438c-41bd-a8e2-14e6433b714d&algo_expid=05c77e45-438c-41bd-a8e2-14e6433b714d-16&btsid=0bb0624416065512359404259e2371&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
+
 **5. ENCLOSURE-CONTROL SUPPORT (HUMIDITY, TEMPERATURE MONITORING, OUTPUT RELAY 4CHANNEL CONTROL SUPPORT)**
 
 **6. Raspberry Pi AP Cooling FAN(5V, PWM Speed Control)**
