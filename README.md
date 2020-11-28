@@ -13,7 +13,8 @@
 
 **6. Raspberry Pi AP Cooling FAN(5V, PWM Speed Control)**
 
-**7. Klipper ADXL345 Sensor Connector Bulit in**
+**7. Klipper ADXL345 Sensor Connector Bulit in(ADXL345 resonance sensor cannot be used simultaneously with SPI-LCD.)**
+
 https://www.klipper3d.org/Measuring_Resonances.html
 
 For more information, see WIKI.<br>
