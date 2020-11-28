@@ -5,15 +5,21 @@
 
 **2. POWER SUPPLY UNIT CONTROL( EXTERNAL RELAY CONTROL 12V or 24V Relay)**
 
-**3. RGB LED STRIP CONTROL(RED, BLUE, GREEN, WHITE LED FET SWITCHING CONTROL)**
+**3. RGBW LED STRIP CONTROL(RED, BLUE, GREEN, WHITE LED FET SWITCHING CONTROL)**
+
+https://ko.aliexpress.com/item/33022691125.html?spm=a2g0o.productlist.0.0.248165f1OyU0S3&algo_pvid=781429ec-3f9b-4be9-987b-c59219aeeffd&algo_expid=781429ec-3f9b-4be9-987b-c59219aeeffd-22&btsid=0bb0624416065510941383430e2371&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 
 **4. Raspberry SPI INTERFACE TFT-LCD & TOUCH SUPPORT**
+
+https://ko.aliexpress.com/item/32233522592.html?spm=a2g0s.9042311.0.0.5f7c4c4dNYOjiv
 
 **5. ENCLOSURE-CONTROL SUPPORT (HUMIDITY, TEMPERATURE MONITORING, OUTPUT RELAY 4CHANNEL CONTROL SUPPORT)**
 
 **6. Raspberry Pi AP Cooling FAN(5V, PWM Speed Control)**
 
-**7. Klipper ADXL345 Sensor Connector Bulit in**
+**7. Klipper ADXL345 Sensor Connector Bulit in(ADXL345 resonance sensor cannot be used simultaneously with SPI-LCD.)**
+
+https://www.klipper3d.org/Measuring_Resonances.html
 
 For more information, see WIKI.<br>
 https://github.com/mocona05/OCTO-PRINTER-CONTROLER/wiki
