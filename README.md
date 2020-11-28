@@ -11,7 +11,7 @@ https://ko.aliexpress.com/item/33022691125.html?spm=a2g0o.productlist.0.0.248165
 
 **4. Raspberry SPI INTERFACE TFT-LCD & TOUCH SUPPORT**
 
-https://ko.aliexpress.com/item/32233502854.html?spm=a2g0o.productlist.0.0.ad285ed8TGbh2Z&algo_pvid=4231de3d-604f-40be-a782-8f99e22bdb38&algo_expid=4231de3d-604f-40be-a782-8f99e22bdb38-21&btsid=0bb0624416065513575944467e2371&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
+https://ko.aliexpress.com/item/32233522592.html?spm=a2g0s.9042311.0.0.5f7c4c4dNYOjiv
 
 **5. ENCLOSURE-CONTROL SUPPORT (HUMIDITY, TEMPERATURE MONITORING, OUTPUT RELAY 4CHANNEL CONTROL SUPPORT)**
 
