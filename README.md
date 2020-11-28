@@ -1,15 +1,19 @@
 # OCTO-PRINTER TFT-LCD HAT MOUDLE (3D PRINTER)
 
 
-**1. DC 7~30V INPUT(DC12V or DC24V, 5V 4A OUT**
+**1. DC 7~30V INPUT(DC12V or DC24V, 5V 4A OUT)**
 
 **2. POWER SUPPLY UNIT CONTROL( EXTERNAL RELAY CONTROL 12V or 24V Relay)**
 
-**3. RGB LED STRIP CONTROL**
+**3. RGB LED STRIP CONTROL(RED, BLUE, GREEN, WHITE LED FET SWITCHING CONTROL)**
 
 **4. Raspberry SPI INTERFACE TFT-LCD & TOUCH SUPPORT**
 
 **5. ENCLOSURE-CONTROL SUPPORT (HUMIDITY, TEMPERATURE MONITORING, OUTPUT RELAY 4CHANNEL CONTROL SUPPORT)**
+
+**6. Raspberry Pi AP Cooling FAN(5V, PWM Speed Control)**
+
+**7. Klipper ADXL345 Sensor Connector Bulit in**
 
 For more information, see WIKI.<br>
 https://github.com/mocona05/OCTO-PRINTER-CONTROLER/wiki
@@ -17,9 +21,9 @@ https://github.com/mocona05/OCTO-PRINTER-CONTROLER/wiki
 Application of Octo Printer Shiled<br>
 https://www.thingiverse.com/make:639404
 
+![OCTO Controler v1 4_PCB](https://user-images.githubusercontent.com/11598835/100496782-317e0880-319a-11eb-8f71-3228b08ca7c2.png)
+![OCTO Controler v1 4](https://user-images.githubusercontent.com/11598835/100496783-32af3580-319a-11eb-8e72-0e0d152ebb26.png)
 
-![v1 3sch](https://user-images.githubusercontent.com/11598835/47960359-a45d3980-e03d-11e8-9079-e34a06b12c0b.png)
-![v1 3pcb](https://user-images.githubusercontent.com/11598835/47960347-6fe97d80-e03d-11e8-8af7-9671df97007e.png)
 
 ![octo printer](https://user-images.githubusercontent.com/11598835/49480760-4d7c9700-f86b-11e8-9726-81482bc5d504.png)
 ![octo printer2](https://user-images.githubusercontent.com/11598835/49480931-ec08f800-f86b-11e8-98b8-92dd2afe2ed5.png)
