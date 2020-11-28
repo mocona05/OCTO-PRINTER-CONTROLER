@@ -14,6 +14,7 @@
 **6. Raspberry Pi AP Cooling FAN(5V, PWM Speed Control)**
 
 **7. Klipper ADXL345 Sensor Connector Bulit in**
+https://www.klipper3d.org/Measuring_Resonances.html
 
 For more information, see WIKI.<br>
 https://github.com/mocona05/OCTO-PRINTER-CONTROLER/wiki
