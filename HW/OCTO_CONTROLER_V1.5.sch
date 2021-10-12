@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -421,8 +421,8 @@ Metric Code Size 5664</description>
 <wire x1="0.1" y1="-0.1" x2="-0.1" y2="-0.3" width="0.127" layer="21"/>
 <wire x1="-0.1" y1="-0.3" x2="0.1" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="0.1" y1="-0.5" x2="0" y2="-0.6" width="0.127" layer="21"/>
-<smd name="1" x="-0.762" y="0" dx="0.8" dy="0.8" layer="1"/>
-<smd name="2" x="0.762" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="1" x="-0.762" y="0" dx="0.8" dy="0.8" layer="1" roundness="10"/>
+<smd name="2" x="0.762" y="0" dx="0.8" dy="0.8" layer="1" roundness="10"/>
 <text x="-1.524" y="1.016" size="0.7" layer="25">&gt;NAME</text>
 <text x="-1.524" y="-1.524" size="0.7" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
@@ -10832,6 +10832,24 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <smd name="P$1" x="-1.3" y="0" dx="5" dy="1.8" layer="1" roundness="20" rot="R90"/>
 <smd name="P$2" x="1.3" y="0" dx="5" dy="1.8" layer="1" roundness="20" rot="R90"/>
 </package>
+<package name="R1225">
+<wire x1="-3.0643" y1="3.483" x2="3.0643" y2="3.483" width="0.0508" layer="39"/>
+<wire x1="3.0643" y1="3.483" x2="3.0643" y2="-3.483" width="0.0508" layer="39"/>
+<wire x1="3.0643" y1="-3.483" x2="-3.0643" y2="-3.483" width="0.0508" layer="39"/>
+<wire x1="-3.0643" y1="-3.483" x2="-3.0643" y2="3.483" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="3.15" x2="1.6" y2="3.15" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="-3.15" x2="1.6" y2="-3.15" width="0.2032" layer="51"/>
+<wire x1="-3.1322" y1="3.651" x2="3.1322" y2="3.651" width="0.2032" layer="21"/>
+<wire x1="3.1322" y1="3.651" x2="3.1322" y2="-3.651" width="0.2032" layer="21"/>
+<wire x1="3.1322" y1="-3.651" x2="-3.1322" y2="-3.651" width="0.2032" layer="21"/>
+<wire x1="-3.1322" y1="-3.651" x2="-3.1322" y2="3.651" width="0.2032" layer="21"/>
+<smd name="1" x="-2" y="0" dx="1.7" dy="6.7" layer="1" roundness="10"/>
+<smd name="2" x="2" y="0" dx="1.7" dy="6.5" layer="1" roundness="10"/>
+<text x="-3.306" y="4.032" size="0.7" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.056" y="-4.54" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
+<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PE">
@@ -11592,6 +11610,15 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </technologies>
 </device>
 <device name="0201" package="R0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1225" package="R1225">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
